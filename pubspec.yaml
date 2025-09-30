@@ -1,0 +1,92 @@
+name: pubg_gfx_tool
+description: A professional PUBG Mobile GFX optimization tool with custom profiles and analytics.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_hooks: ^0.20.3
+  hooks_riverpod: ^2.4.9
+  riverpod_annotation: ^2.3.3
+
+  # UI & Animations
+  google_fonts: ^6.1.0
+  lottie: ^2.7.0
+  flutter_screenutil: ^5.9.0
+  flutter_animate: ^4.3.0
+  shimmer: ^3.0.0
+
+  # Local Storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  shared_preferences: ^2.2.2
+
+  # Analytics
+  firebase_core: ^2.24.2
+  firebase_analytics: ^10.8.0
+
+  # Utilities
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.8.1
+  intl: ^0.18.1
+  url_launcher: ^6.2.2
+
+  # Icons
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Code Generation
+  build_runner: ^2.4.7
+  freezed: ^2.4.6
+  json_serializable: ^6.7.1
+  riverpod_generator: ^2.3.9
+
+  # Linting
+  flutter_lints: ^3.0.1
+  very_good_analysis: ^5.1.0
+
+  # App Icon & Splash
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.3.8
+
+  # Code Generation Helper
+  hive_generator: ^2.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/lottie/
+    - assets/icons/
+
+  fonts:
+    - family: CustomIcons
+      fonts:
+        - asset: assets/fonts/custom_icons.ttf
+
+# Flutter Launcher Icons Configuration
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/app_icon.png"
+  adaptive_icon_background: "#0a0e27"
+  adaptive_icon_foreground: "assets/images/app_icon_foreground.png"
+
+# Flutter Native Splash Configuration
+flutter_native_splash:
+  color: "#0a0e27"
+  image: assets/images/splash_logo.png
+  android_12:
+    color: "#0a0e27"
+    image: assets/images/splash_logo.png
+  ios_content_mode: center
