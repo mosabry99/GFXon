@@ -1,0 +1,17 @@
+# Asset Images Directory
+
+Place your image assets here:
+
+- app_icon.png (1024x1024px) - App icon
+- app_icon_foreground.png (1024x1024px) - Foreground icon for Android
+- splash_logo.png (512x512px) - Splash screen logo
+- onboarding_1.png - Onboarding page 1
+- onboarding_2.png - Onboarding page 2
+- onboarding_3.png - Onboarding page 3
+- onboarding_4.png - Onboarding page 4
+
+## Format Recommendations
+
+- Use PNG format for transparency
+- Optimize images before adding
+- Use appropriate resolution for target platforms
