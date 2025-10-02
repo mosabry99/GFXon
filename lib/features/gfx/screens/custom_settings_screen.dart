@@ -18,7 +18,7 @@ class _CustomSettingsScreenState extends State<CustomSettingsScreen> {
   Resolution _resolution = Resolution.fullHd;
   int _fps = 60;
   GraphicsQuality _graphicsQuality = GraphicsQuality.hd;
-  AntiAliasing _antiAliasing = AntiAliasing.msaa4x;
+  AntiAliasing _antiAliasing = AntiAliasing.enabled;
   bool _shadows = true;
   TextureQuality _textureQuality = TextureQuality.high;
   ViewDistance _viewDistance = ViewDistance.far;

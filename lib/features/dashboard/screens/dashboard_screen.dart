@@ -6,7 +6,6 @@ import 'package:pubg_gfx_tool/core/constants/gfx_presets.dart';
 import 'package:pubg_gfx_tool/core/router/app_router.dart';
 import 'package:pubg_gfx_tool/services/analytics/analytics_service.dart';
 import 'package:pubg_gfx_tool/services/game_launcher/game_launcher_service.dart';
-import 'package:pubg_gfx_tool/shared/widgets/glow_button.dart';
 import 'package:pubg_gfx_tool/shared/widgets/preset_card.dart';
 import 'package:pubg_gfx_tool/theme/app_colors.dart';
 
@@ -223,7 +222,7 @@ class DashboardScreen extends StatelessWidget {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
             content: const Text('⚠️ PUBG Mobile is not installed'),
-            backgroundColor: AppColors.warningOrange,
+            backgroundColor: AppColors.neonOrange,
             behavior: SnackBarBehavior.floating,
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(10.r),
