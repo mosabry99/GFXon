@@ -1,4 +1,4 @@
-import '../../models/gfx_profile.dart';
+import 'package:pubg_gfx_tool/models/gfx_profile.dart';
 
 /// Pre-defined GFX optimization presets
 class GfxPresets {

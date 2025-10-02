@@ -3,9 +3,9 @@ import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
-import 'core/bootstrap.dart';
-import 'core/router/app_router.dart';
-import 'theme/app_theme.dart';
+import 'package:pubg_gfx_tool/core/bootstrap.dart';
+import 'package:pubg_gfx_tool/core/router/app_router.dart';
+import 'package:pubg_gfx_tool/theme/app_theme.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import '../../models/gfx_profile.dart';
-import '../../theme/app_colors.dart';
-import 'glow_card.dart';
+import 'package:pubg_gfx_tool/models/gfx_profile.dart';
+import 'package:pubg_gfx_tool/theme/app_colors.dart';
+import 'package:pubg_gfx_tool/shared/widgets/glow_card.dart';
 
 /// Preset card widget for displaying GFX presets
 class PresetCard extends StatelessWidget {
@@ -46,7 +46,7 @@ class PresetCard extends StatelessWidget {
       case 'HD Graphics':
         return Icons.hd;
       case 'Ultra HD':
-        return Icons.4k;
+        return Icons.four_k;
       case 'Extreme FPS':
         return Icons.bolt;
       default:

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import '../../../models/tutorial.dart';
-import '../../../shared/widgets/glow_card.dart';
-import '../../../theme/app_colors.dart';
+import 'package:pubg_gfx_tool/models/tutorial.dart';
+import 'package:pubg_gfx_tool/shared/widgets/glow_card.dart';
+import 'package:pubg_gfx_tool/theme/app_colors.dart';
 
 /// Tutorials and tips screen
 class TutorialsScreen extends StatelessWidget {
