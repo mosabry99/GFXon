@@ -223,7 +223,7 @@ class DashboardScreen extends StatelessWidget {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
             content: const Text('⚠️ PUBG Mobile is not installed'),
-            backgroundColor: AppColors.warningOrange,
+            backgroundColor: AppColors.neonOrange,
             behavior: SnackBarBehavior.floating,
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(10.r),
