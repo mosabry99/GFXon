@@ -2,8 +2,8 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/foundation.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 
-import '../services/analytics/analytics_service.dart';
-import '../services/storage/storage_service.dart';
+import 'package:pubg_gfx_tool/services/analytics/analytics_service.dart';
+import 'package:pubg_gfx_tool/services/storage/storage_service.dart';
 
 /// Bootstrap the application with required services
 /// 

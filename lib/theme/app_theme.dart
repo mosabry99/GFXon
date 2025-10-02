@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
-import '../services/storage/storage_service.dart';
-import 'app_colors.dart';
+import 'package:pubg_gfx_tool/services/storage/storage_service.dart';
+import 'package:pubg_gfx_tool/theme/app_colors.dart';
 
 /// Theme mode provider
 final themeModeProvider = StateNotifierProvider<ThemeModeNotifier, ThemeMode>(
@@ -157,7 +157,7 @@ class AppTheme {
         letterSpacing: 1.5,
       ),
     ),
-    cardTheme: CardTheme(
+    cardTheme: CardThemeData(
       color: AppColors.darkSurface,
       elevation: 4,
       shadowColor: AppColors.neonBlue.withOpacity(0.2),
@@ -285,7 +285,7 @@ class AppTheme {
         letterSpacing: 1.5,
       ),
     ),
-    cardTheme: CardTheme(
+    cardTheme: CardThemeData(
       color: Colors.white,
       elevation: 2,
       shadowColor: Colors.black12,

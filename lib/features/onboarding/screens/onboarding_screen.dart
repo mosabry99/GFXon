@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:go_router/go_router.dart';
 
-import '../../../core/router/app_router.dart';
-import '../../../models/onboarding_page.dart';
-import '../../../services/storage/storage_service.dart';
-import '../../../shared/widgets/glow_button.dart';
-import '../../../theme/app_colors.dart';
+import 'package:pubg_gfx_tool/core/router/app_router.dart';
+import 'package:pubg_gfx_tool/models/onboarding_page.dart';
+import 'package:pubg_gfx_tool/services/storage/storage_service.dart';
+import 'package:pubg_gfx_tool/shared/widgets/glow_button.dart';
+import 'package:pubg_gfx_tool/theme/app_colors.dart';
 
 /// Onboarding screen with page view
 class OnboardingScreen extends StatefulWidget {

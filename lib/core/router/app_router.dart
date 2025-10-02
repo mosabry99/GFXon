@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
-import '../../features/dashboard/screens/dashboard_screen.dart';
-import '../../features/gfx/screens/custom_settings_screen.dart';
-import '../../features/gfx/screens/saved_profiles_screen.dart';
-import '../../features/onboarding/screens/onboarding_screen.dart';
-import '../../features/onboarding/screens/splash_screen.dart';
-import '../../features/settings/screens/settings_screen.dart';
-import '../../features/tutorials/screens/tutorials_screen.dart';
-import '../../services/storage/storage_service.dart';
+import 'package:pubg_gfx_tool/features/dashboard/screens/dashboard_screen.dart';
+import 'package:pubg_gfx_tool/features/gfx/screens/custom_settings_screen.dart';
+import 'package:pubg_gfx_tool/features/gfx/screens/saved_profiles_screen.dart';
+import 'package:pubg_gfx_tool/features/onboarding/screens/onboarding_screen.dart';
+import 'package:pubg_gfx_tool/features/onboarding/screens/splash_screen.dart';
+import 'package:pubg_gfx_tool/features/settings/screens/settings_screen.dart';
+import 'package:pubg_gfx_tool/features/tutorials/screens/tutorials_screen.dart';
+import 'package:pubg_gfx_tool/services/storage/storage_service.dart';
 
 /// App router provider
 final appRouterProvider = Provider<GoRouter>((ref) {

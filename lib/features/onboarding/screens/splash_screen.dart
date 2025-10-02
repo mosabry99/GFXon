@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:go_router/go_router.dart';
 
-import '../../../core/router/app_router.dart';
-import '../../../services/analytics/analytics_service.dart';
-import '../../../services/storage/storage_service.dart';
-import '../../../theme/app_colors.dart';
+import 'package:pubg_gfx_tool/core/router/app_router.dart';
+import 'package:pubg_gfx_tool/services/analytics/analytics_service.dart';
+import 'package:pubg_gfx_tool/services/storage/storage_service.dart';
+import 'package:pubg_gfx_tool/theme/app_colors.dart';
 
 /// Splash screen with animated logo
 class SplashScreen extends StatefulWidget {

@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:go_router/go_router.dart';
 
-import '../../../core/constants/gfx_presets.dart';
-import '../../../core/router/app_router.dart';
-import '../../../services/analytics/analytics_service.dart';
-import '../../../shared/widgets/glow_button.dart';
-import '../../../shared/widgets/preset_card.dart';
-import '../../../theme/app_colors.dart';
+import 'package:pubg_gfx_tool/core/constants/gfx_presets.dart';
+import 'package:pubg_gfx_tool/core/router/app_router.dart';
+import 'package:pubg_gfx_tool/services/analytics/analytics_service.dart';
+import 'package:pubg_gfx_tool/shared/widgets/glow_button.dart';
+import 'package:pubg_gfx_tool/shared/widgets/preset_card.dart';
+import 'package:pubg_gfx_tool/theme/app_colors.dart';
 
 /// Main dashboard screen with quick access to presets
 class DashboardScreen extends StatelessWidget {
